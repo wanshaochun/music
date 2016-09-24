@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#d50000">
+
+            <ImageView
+                android:id="@+id/music_fragment_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="34dp"
+                android:text="本地音乐"
+                android:textColor="#ffefef"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/music_fragment_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+
+</FrameLayout>

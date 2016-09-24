@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_right_btn_false">#fefefe</color>
+    <color name="main_right_btn_true">#d7d7d7</color>
+    <color name="color_text_normal">#575757</color>
+    <color name="color_text_selected">#ff0000</color>
+    <color name="color_ima_pressed">#b99999</color>
+</resources>

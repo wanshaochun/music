@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:background="@drawable/main_list_right_head_background">
+
+        <ImageView
+            android:id="@+id/main_listView_right_hand_picture"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginLeft="14dp"
+            android:src="@drawable/main_list_right_hand_picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="14dp"
+            android:text="殇城落叶"
+            android:textColor="#e3e3e3"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/main_list_right_hand_shape_one"
+            android:text="lv.10"
+            android:textColor="#e3e3e3"
+            android:textSize="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/main_list_right_hand_shape_two"
+            android:text="已签到"
+            android:textSize="12dp"
+            android:textColor="#c4c4c4" />
+
+    </RelativeLayout>
+
+</LinearLayout>

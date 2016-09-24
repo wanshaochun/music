@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_title_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/recommend_icn_recmd" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="推荐歌单"
+                    android:textColor="#333333"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:text="更多>"
+                android:textColor="#7c7c7c"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="344dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img1"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text1"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="155dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img2"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text2"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img3"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text3"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img4"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text4"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img5"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text5"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_img6"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/main_fragment_music_discoverOne_list_0ne_text6"
+                    android:layout_width="107dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:text="爱我所爱的人，幸福一生"
+                    android:textColor="#333333"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_vertical">
+
+                 <ImageView
+                     android:layout_width="20dp"
+                     android:layout_height="20dp"
+                     android:layout_marginLeft="12dp"
+                     android:src="@drawable/recommend_icn_exclusive" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:text="独家放送"
+                     android:textColor="#333333"
+                     android:textSize="16dp" />
+
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="14dp"
+                 android:text="更多>"
+                 android:textColor="#7c7c7c"
+                 android:textSize="13dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="338dp"
+             android:layout_height="124dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Two_img1"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Two_text1"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Two_img2"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Two_text2"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="332dp"
+             android:layout_height="150dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="vertical">
+
+             <ImageView
+                 android:id="@+id/main_fragment_music_discoverOne_list_Two_img3"
+                 android:layout_width="match_parent"
+                 android:layout_height="110dp"
+                 android:scaleType="fitXY"
+                 android:src="@drawable/placeholder_disk_background" />
+
+             <TextView
+                 android:id="@+id/main_fragment_music_discoverOne_list_Two_text3"
+                 android:layout_width="match_parent"
+                 android:layout_height="30dp"
+                 android:layout_marginTop="5dp"
+                 android:text="爱我所爱的人，幸福一生"
+                 android:textColor="#333333"
+                 android:textSize="11.5dp" />
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#d9d9d9" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_vertical">
+
+                 <ImageView
+                     android:layout_width="20dp"
+                     android:layout_height="20dp"
+                     android:layout_marginLeft="12dp"
+                     android:src="@drawable/recommend_icn_newest" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:text="最新音乐"
+                     android:textColor="#333333"
+                     android:textSize="16dp" />
+
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="14dp"
+                 android:text="更多>"
+                 android:textColor="#7c7c7c"
+                 android:textSize="13dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="344dp"
+             android:layout_height="148dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img1"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text1"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="155dp"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img2"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text2"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img3"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text3"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="340dp"
+             android:layout_height="148dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img4"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text4"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img5"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text5"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_img6"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Three_text6"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_vertical">
+
+                 <ImageView
+                     android:layout_width="20dp"
+                     android:layout_height="20dp"
+                     android:layout_marginLeft="12dp"
+                     android:src="@drawable/recommend_icn_mv" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:text="最新MV"
+                     android:textColor="#333333"
+                     android:textSize="16dp" />
+
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="14dp"
+                 android:text="更多>"
+                 android:textColor="#7c7c7c"
+                 android:textSize="13dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="338dp"
+             android:layout_height="120dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_img1"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/placeholder_disk_background"
+                     android:scaleType="fitXY" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_text1"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_img2"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_text2"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="338dp"
+             android:layout_height="120dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_img3"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_text3"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_img4"
+                     android:layout_width="165dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Four_text4"
+                     android:layout_width="165dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11.4dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_vertical">
+
+                 <ImageView
+                     android:layout_width="20dp"
+                     android:layout_height="20dp"
+                     android:layout_marginLeft="12dp"
+                     android:src="@drawable/recommend_icn_radio" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:text="主播电台"
+                     android:textColor="#333333"
+                     android:textSize="16dp" />
+
+             </LinearLayout>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="14dp"
+                 android:text="更多>"
+                 android:textColor="#7c7c7c"
+                 android:textSize="13dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="344dp"
+             android:layout_height="150dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img1"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text1"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="5dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="155dp"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img2"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text2"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img3"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text3"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="340dp"
+             android:layout_height="152dp"
+             android:layout_gravity="center_horizontal"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img4"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text4"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img5"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text5"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:scaleType="fitXY"
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_img6"
+                     android:layout_width="107dp"
+                     android:layout_height="107dp"
+                     android:src="@drawable/placeholder_disk_background" />
+
+                 <TextView
+                     android:id="@+id/main_fragment_music_discoverOne_list_Five_text6"
+                     android:layout_width="107dp"
+                     android:layout_height="30dp"
+                     android:layout_marginTop="3dp"
+                     android:text="爱我所爱的人，幸福一生"
+                     android:textColor="#333333"
+                     android:textSize="11dp" />
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="#d9d9d9" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="128dp"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginTop="15dp"
+             android:gravity="center_horizontal"
+             android:text="版权所有，翻版必究！"
+             android:textColor="#9c9c9c" />
+
+         <Button
+             android:layout_gravity="center_horizontal"
+             android:id="@+id/main_fragment_music_discoverOne_list_btn"
+             android:layout_width="100dp"
+             android:layout_height="30dp"
+             android:gravity="center"
+             android:background="@drawable/main_fragment_music_discoverone_list_btn_shape"
+             android:text="查看版权"
+             android:textColor="#ff0000"
+             android:textSize="12dp" />
+     </LinearLayout>-->
+
+</LinearLayout>

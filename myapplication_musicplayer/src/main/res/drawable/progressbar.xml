@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape>
+
+            <corners
+
+                android:radius="5dip" />
+
+            <gradient
+
+                android:startColor="#ff9791"
+
+                android:endColor="#ff9791" />
+
+        </shape>
+
+    </item>
+
+
+
+    <!--  设置进度条颜色（白色）  -->
+
+    <item>
+
+        <clip>
+
+            <shape>
+
+                <corners
+
+                    android:radius="5dip" />
+
+                <gradient
+
+                    android:startColor="#1aff00"
+
+                    android:endColor="#1aff00" />
+
+            </shape>
+
+        </clip>
+
+    </item>
+
+</layer-list>

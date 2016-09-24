@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_activity_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="76.5dp"
+        android:background="#726881">
+
+        <ImageView
+            android:id="@+id/player_activity_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+
+        <TextView
+            android:id="@+id/player_activity_test_lite"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="25dp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="歌曲名字"
+            android:textColor="#e9e9e9"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/player_activity_test_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:text="艺术家名字"
+            android:textColor="#e0e0e0"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/abc_ic_menu_share_mtrl_alpha" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/play_disc" />
+
+        <ImageView
+
+            android:layout_width="91.3dp"
+            android:layout_height="136.4dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/play_needle"
+            android:translationY="-16dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/player_activity_icn_love"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/player_activity_icn_love"
+                    android:clickable="true" />
+
+                <ImageView
+                    android:id="@+id/player_activity_icn_did"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/player_activity_icn_did"
+                    android:clickable="true" />
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/player_activity_icn_cmt"
+                    android:clickable="true" />
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/player_activity_icn_more"
+                    android:clickable="true" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/player_activity_test_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="00:00"
+                android:textColor="#ffffff" />
+
+            <SeekBar
+                android:id="@+id/player_activity_seeBar_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/player_activity_test_totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="00:00"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/player_activity_img_loop"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/play_icn_loop" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/player_activity_btn_prev"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/player_activity_btn_prev" />
+
+                <Button
+                    android:id="@+id/player_activity_btn_play"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:background="@drawable/player_activity_btn_pause" />
+
+                <Button
+                    android:id="@+id/player_activity_btn_next"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/player_activity_btn_next" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/player_activity_img_src"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/play_icn_src" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/main_discover_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/main_discover_TextOne"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="个性推荐"
+                android:textColor="@color/my_discover_text_color"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/main_discover_TextTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="主播电台"
+                android:textColor="@color/my_discover_text_color"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/main_discover_TextThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="歌单"
+                android:textColor="@color/my_discover_text_color"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/main_discover_TextFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="排行榜"
+                android:textColor="@color/my_discover_text_color"
+                android:textSize="15dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/id_tab_line_iv"
+            android:layout_width="270px"
+            android:layout_height="2.4dp"
+            android:background="#e20000"
+            android:contentDescription="tab" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_discover_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
